@@ -82,6 +82,8 @@ A curated list of awesome Python frameworks, libraries and software. Inspired by
 * [pyenv](https://github.com/yyuu/pyenv) - Simple Python version management.
 * [virtualenv](https://pypi.python.org/pypi/virtualenv) - A tool to create isolated Python environments.
 * [virtualenvwrapper](https://pypi.python.org/pypi/virtualenvwrapper) - A set of extensions to virtualenv
+* [pew](https://pypi.python.org/pypi/pew/) - Python Env Wrapper (also called Invewrapper) is a set of tools to manage multiple virtual environments.
+* [Vex](https://github.com/sashahart/vex) - Run a command in the named virtualenv.
 * [PyRun](https://www.egenix.com/products/python/PyRun/) - A one-file, no-installation-needed version of Python.
 
 ## Package Management
@@ -213,6 +215,7 @@ long, literate-programming-style documentation generator.
 * Productivity Tools
     * [httpie](https://github.com/jakubroztocil/httpie) - A command line HTTP client, a user-friendly cURL replacement.
     * [percol](https://github.com/mooz/percol) - Adds flavor of interactive selection to the traditional pipe concept on UNIX.
+    * [RainbowStream](http://www.rainbowstream.org/) - Smart and nice Twitter client on terminal.
 
 ## Imagery
 
@@ -270,6 +273,7 @@ long, literate-programming-style documentation generator.
 
 * [requests](http://docs.python-requests.org/) - HTTP Requests for Humans™.
 * [urllib3](https://github.com/shazow/urllib3) - HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more.
+* [httplib2](https://github.com/jcgregorio/httplib2) - Comprehensive HTTP client library.
 * [treq](https://github.com/dreid/treq) - Python requests like API built on top of Twisted's HTTP client.
 
 ## Database
@@ -349,6 +353,7 @@ long, literate-programming-style documentation generator.
 * [cornice](https://cornice.readthedocs.org/) - A REST framework for Pyramid.
 * [django-rest-framework](http://www.django-rest-framework.org/) - A powerful and flexible toolkit that makes it easy to build Web APIs.
 * [django-tastypie](http://tastypieapi.org/) - Creating delicious APIs for Django apps.
+* [django-formapi](https://github.com/5monkeys/django-formapi) - Create JSON APIs with HMAC authentication and Django form-validation.
 * [flask-api](http://www.flaskapi.org/) - An implementation of the same web browsable APIs that django-rest-framework provides.
 * [flask-restful](http://flask-restful.readthedocs.org/) - An extension for Flask that adds support for quickly building REST APIs.
 * [flask-api-utils](https://github.com/marselester/flask-api-utils) - Flask extension that takes care of API representation and authentication.
@@ -416,14 +421,20 @@ long, literate-programming-style documentation generator.
 * [fileconveyor](http://fileconveyor.org/) - Monitors changes, processes, and transports assets to CDNs and file storage systems.
 * [django-storages](http://code.larlet.fr/django-storages/) - A collection of custom storage backends for Django.
 * [glue](http://gluecss.com) - Glue is a simple command line tool to generate CSS sprites.
+* [libsass-python](http://hongminhee.org/libsass-python/) - A Python binding of [libsass](https://github.com/hcatlin/libsass), the reference implementation of SASS/SCSS.
 
 ## Caching
 
 *Libraries for caching data.*
 
-* [Beaker Caching & Sessions](http://beaker.readthedocs.org/en/latest/) - Beaker is a library for caching and sessions for use with web applications and stand-alone Python scripts and applications.
-* [Dogpile Cache](http://dogpilecache.readthedocs.org/en/latest/) - Dogpile Cache is next generation replacement for Beaker made by same authors.
+* [Beaker](http://beaker.readthedocs.org/) - A library for caching and sessions for use with web applications and stand-alone Python scripts and applications.
+* [dogpile.cache](http://dogpilecache.readthedocs.org/) - dogpile.cache is next generation replacement for Beaker made by same authors.
 * [HermesCache](https://pypi.python.org/pypi/HermesCache) - Python caching library with tag-based invalidation and dogpile effect prevention.
+* [django-cache-machine](https://github.com/jbalogh/django-cache-machine) - Automatic caching and invalidation for Django models through the ORM.
+* [django-cacheops](https://github.com/Suor/django-cacheops) - A slick ORM cache with automatic granular event-driven invalidation.
+* [johnny-cache](https://github.com/jmoiron/johnny-cache) - A caching framework for django applications.
+* [django-viewlet](https://github.com/5monkeys/django-viewlet) - Render template parts with extended cache control.
+* [pylibmc](https://github.com/lericson/pylibmc) - A Python wrapper around the [libmemcached](http://libmemcached.org/libMemcached.html) interface.
 
 ## Email
 
@@ -636,6 +647,8 @@ long, literate-programming-style documentation generator.
     * [mock](https://pypi.python.org/pypi/mock) - A Python Mocking and Patching Library for Testing.
     * [responses](https://github.com/dropbox/responses) - A utility library for mocking out the requests Python library.
     * [doublex](https://pypi.python.org/pypi/doublex) - Powerful test doubles framework for Python.
+    * [freezegun](https://github.com/spulec/freezegun) - Travel through time by mocking the datetime module.
+    * [httpretty](http://falcao.it/HTTPretty/) - HTTP request mock tool for Python.
 * Fake Data
     * [faker](http://www.joke2k.net/faker/) - A Python package that generates fake data.
     * [mixer](https://mixer.readthedocs.org) - Generating fake data and creating random fixtures for testing in Django ORM, SQLAlchemy, Peewee, MongoEngine, Pony ORM and etc.
@@ -659,7 +672,7 @@ long, literate-programming-style documentation generator.
 
 ## Debugging Tools
 
-*Libraries for dubugging and developing.*
+*Libraries for debugging code.*
 
 * [pdb](https://docs.python.org/2/library/pdb.html) - (Python standard library) The Python Debugger.
 * [ipdb](https://pypi.python.org/pypi/ipdb) - IPython-enabled pdb.
@@ -698,6 +711,7 @@ long, literate-programming-style documentation generator.
 * [d3py](https://github.com/mikedewar/d3py) - A plottling library for Python, based on [D3.js](http://d3js.org/).
 * [ggplot](https://github.com/yhat/ggplot) - Same API as ggplot2 for R.
 * [Kartograph.py](https://github.com/kartograph/kartograph.py) - Rendering beautiful SVG maps in Python.
+* [pygal](http://pygal.org/) - A Python SVG Charts Creator.
 
 ## Machine Learning
 
@@ -728,10 +742,12 @@ long, literate-programming-style documentation generator.
 
 * [fn.py](https://github.com/kachayev/fn.py) - Functional programming in Python: implementation of missing features to enjoy FP.
 * [funcy](https://github.com/Suor/funcy) - A fancy and practical functional tools.
+* [Toolz](https://github.com/pytoolz/toolz) - A collection of functional utilities for iterators, functions, and dictionaries.
+* [CyToolz](https://github.com/pytoolz/cytoolz/) - Cython implementation of Toolz: High performance functional utilities.
 
 ## Third-party APIs
 
-*Libraries for accessing third party APIs.*
+*Libraries for accessing third party APIs. See: [List of Python API Wrappers and Libraries](https://github.com/realpython/list-of-python-api-wrappers)*
 
 * [apache-libcloud](https://libcloud.apache.org/) - One Python library for all clouds.
 * [boto](https://github.com/boto/boto) - Python interface to Amazon Web Services.
@@ -834,6 +850,7 @@ Where to discover new Python libraries.
 * [r/Python](http://www.reddit.com/r/python) - News about Python.
 * [Python 3 Wall of Superpowers](http://python3wos.appspot.com/) - Too many popular Python packages don't support Python 3.
 * [Trending Python repositories on GitHub today](https://github.com/trending?l=python) - Good place to find new Python libraries.
+* [List of Python API Wrappers](https://github.com/realpython/list-of-python-api-wrappers) - A list of web services along with links to their docs and Python wrappers/libraries.
 * [Django Packages](https://www.djangopackages.com/) - A directory of reusable apps, sites, tools, and more for Django projects.
 
 ## Weekly
